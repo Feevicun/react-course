@@ -1,0 +1,159 @@
+{
+  "form": {
+    "usertitle": "Music enjoyer",
+    "musictitle": "Tracks",
+    "nameLabel": "Name",
+    "musicLabel": "Name",
+    "ageLabel": "Age",
+    "moodLabel": "Mood",
+    "genreLabel": "Genre Preferences (select up to 3)",
+    "musicGenre": "Genre",
+    "artistLabel": "Artist",
+    "dateLabel": "Released on",
+    "nextButton": "Next",
+    "submitButton": "Submit",
+    "clearButton": "Clear Form",
+    "nameError": "Only letters and spaces are allowed",
+    "ageError": "Age must be between 18 and 120",
+    "moodError": "Mood is required",
+    "genresError": "Select up to 3 genres",
+    "musicDescription": "SHARE YOUR MUSICAL JOURNEY WITH US"
+  },
+  "notFound": {
+    "title": "404 - Not Found",
+    "message": "The page you are looking for does not exist."
+  },
+  "home": {
+    "title": "Your Day, Your Choice, Your Music",
+    "description": "Welcome to our music selection platform! Customize your listening experience based on your preferences and mood. Explore curated playlists and discover new tracks that resonate with you.",
+    "timeline1": "Complete Your Profile",
+    "description1": "Provide us with your preferences and musical tastes to tailor your experience.",
+    "timeline2": "Submit Your Tracks",
+    "description2": "Add your favorite tracks to our platform to create a personalized music library.",
+    "timeline3": "Manage Your Collection",
+    "description3": "Edit, delete, or rearrange your tracks to keep your collection organized and up-to-date.",
+    "timeline4": "Highlight Your Favorites",
+    "description4": "Select your top tracks and add them to your Favorites page for easy access and listening.",
+     "alert1" : "To add card: fill out two forms in order.",
+     "alert2" : "To add user or song to playlist : fill out the forms depending on your needs.",
+    "alerticon":"Alert",
+    "emailicon":"Contact Form"
+  },
+  "favorites": {
+    "title": "Mark some Cards To create your own Playlist"
+  },
+  "card": {
+    "songName": "Name of the song:",
+    "genre": "Genre:",
+    "artist": "Artist:",
+    "date": "Date for note:",
+    "user": "User:",
+    "age": "Age:",
+    "mood": "Mood:",
+    "preferredGenres": "Preferred genres:"
+  },
+  "enums": {
+    "Mood": {
+      "Happy": "Happy",
+      "Sad": "Sad",
+      "Energetic": "Energetic",
+      "Relaxing": "Relaxing",
+      "Chill": "Chill",
+      "PumpUp": "PumpUp"
+    },
+    "Genre": {
+      "Funk": "Funk",
+      "Metal": "Metal",
+      "Pop": "Pop",
+      "Rock": "Rock",
+      "HipHopRap": "Hip Hop Rap",
+      "ElectronicDance": "Electronic Dance",
+      "RnBSoul": "RnB Soul",
+      "Classical": "Classical",
+      "Jazz": "Jazz",
+      "Country": "Country",
+      "Alternative": "Alternative",
+      "Indie": "Indie"
+    }
+  },
+  "Card": {
+    "searchLabel": "search",
+    "songLabel": "Name of the song:",
+    "cardGenreLabel": "Genre:",
+    "cardArtistLabel": "Artist:",
+    "cardDateLabel": "Date for note:",
+    "cardUserLabel": "User:",
+    "cardAgeLabel": "Age:",
+    "cardMoodLabel": "Mood:",
+    "cardPrGenreLabel": "Preferred genres:"
+  },
+  "routes": {
+    "homepage": "Home",
+    "userform": "User Form",
+    "musicform": "Music Form",
+    "cards": "Cards",
+    "favorites": "Favorites",
+    "playlist": "Playlist"
+  },
+  "playlist": {
+    "header": " Make your own Playlist",
+    "songs": " Current songs added",
+    "users": " Current users added",
+    "iconPicker": " Select an Icon"
+  },
+  "userErrors": {
+    "nameRequired": "Name is required",
+    "pattern": "Only letters and spaces are allowed",
+    "nameMinLength": "Name must be at least 3 characters long",
+    "nameMaxLength": "Name must be less than 30 characters long",
+    "noLeadingSpace": "Name cannot start with a space",
+    "ageRequired": "Age is required",
+    "ageMin": "Age must be at least 18",
+    "ageMax": "Age must be less than or equal to 120",
+    "isNumber": "Age must be a number",
+    "noSpecialChars": "Age must not contain special characters",
+    "moodRequired": "Mood is required",
+    "genresRequired": "At least one genre is required",
+    "genresMax": "You can select up to 3 genres"
+},
+  "musicErrors": {
+    "name": {
+      "required": "Name is required",
+      "minLength": "Name must be at least 2 characters long",
+      "maxLength": "Name must be less than 20 characters long",
+      "validate": "Name should start with a capital letter"
+    },
+    "genre": {
+      "required": "Genre is required"
+    },
+    "artist": {
+      "required": "Artist is required",
+      "minLength": "Artist must be at least 2 characters long",
+      "maxLength": "Artist must be less than 20 characters long",
+      "validate": "Artist should start with a capital letter"
+    },
+    "releasedOn": {
+      "required": "Date is required",
+      "min": "Enter a date after 1980",
+      "max": "Enter a date before today"
+    }
+}, 
+"Contact":{
+  "header": "Contact Us",
+  "name":{
+    "NameLabel": "Name",
+    "required": "Name is required",
+    "minLength": "Name should be at least 2 characters long"
+  },
+  "email":{
+    "EmailLabel": "Email",
+    "required": "Email is required",
+    "Email": "Invalid email address"
+  },
+  "message":{
+    "MessageLabel": "Message",
+    "required": "Message is required",
+    "minLength": "Message should be at least 10 characters long"
+  }
+}
+}
